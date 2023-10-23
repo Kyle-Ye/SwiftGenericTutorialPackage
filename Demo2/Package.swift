@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "TestKit", targets: ["TestKit"]),
     ],
     targets: [
-        .executableTarget(name: "Demo"),
+        .executableTarget(name: "Demo", dependencies: ["TestKit"]),
         .target(name: "TestKit"),
     ]
 )

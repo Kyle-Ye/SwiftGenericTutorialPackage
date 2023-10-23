@@ -1,6 +1,8 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
+import TestKit
+
 @main
 struct A {
     static func main() {
